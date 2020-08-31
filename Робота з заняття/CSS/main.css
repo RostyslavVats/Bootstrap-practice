@@ -1,0 +1,280 @@
+/* ------ Спецификация ------ */
+
+body {
+	font-family: 'Roboto Slab', serif;
+	color: #6c7279;
+	padding: 0;
+	letter-spacing: 0em;
+	margin: 0;
+	font-size: 14px;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #2d3033;
+	line-height: 1.6em;
+}
+
+h1 {
+	font-size: 51px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+	outline: none;
+}
+
+.container-fluid_plain {
+	padding: 0;
+}
+
+.btn {
+	font-size: 16px;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 100px;
+	text-align: center;
+	display: block;
+	width: 214px;
+	padding: 12px 0;
+	font-weight: 700;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #e2512b;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+/* ------ Первый экран ------ */
+
+.header {
+	background: #e2512b;
+	color: #fff;
+	padding-top: 19px;
+	padding-bottom: 213px;
+}
+
+.logo {
+	background: #fff;
+	color: #e2512b;
+	font-weight: 700;
+	font-size: 14px;
+	border-radius: 15px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.logo span {
+	font-size: 16px;
+	display: block;
+	line-height: 0.6em;
+}
+
+.menu {
+	    margin-top: 15px;
+}
+
+.menu__item {
+	font-size: 14px;
+}
+
+.menu__item a {
+	color: #fff;
+}
+
+.phone {
+	font-size: 17px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 10px;
+    display: block;
+    text-align: right;
+}
+
+.phone:hover {
+	color: #fff;
+}
+
+.offer {
+	text-align: center;
+	margin-top: 160px;
+}
+
+.offer__title {
+	color: #fff;
+}
+
+.offer__btn {
+	margin: 0 auto;
+}
+
+.offer__text {
+	font-size: 22px;
+	margin-bottom: 42px;
+	margin-top: 10px;
+}
+
+
+/* ------ Второй экран ------ */
+
+.features {
+	padding: 111px 0 123px;
+}
+
+.feature {
+	text-align: center;
+}
+
+.feature__title {
+
+}
+
+.feature__letter {
+	font-size: 37px;
+	color: #e2512b;
+	font-weight: 700;
+	margin: 37px 0 33px;
+}
+
+.feature__text {
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+/* ------ Третий экран ------ */
+
+.workspace {
+	background: url('../img/workspace.jpg') no-repeat center center;
+	height: 390px;
+}
+
+.true {
+	background: #e4e4e4;
+	padding: 75px 0 82px 82px;
+	width: 100%;
+}
+
+.true__title {
+	width: 400px;
+}
+
+.true__text {
+	margin-top: 20px;
+	margin-bottom: 32px;
+}
+
+.true__btn {
+	color: #e2512b;
+	border: 2px solid #e2512b;
+}
+
+.true__btn:hover {
+	background: #e2512b;
+	color: #fff;
+}
+
+.footer {
+	padding: 90px 0;
+}
+
+/* Media Queries */
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.logo {
+		margin: 0 auto;
+	}
+	.menu {
+		margin-top: 30px;
+	}
+	.phone {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.offer__title {
+		line-height: 1.3em;
+	}
+	.feature {
+		margin-bottom: 90px;
+	}
+	.features {
+		padding-bottom: 23px;
+	}
+	.true {
+		padding-left: 42px;
+	}
+	.true__title {
+		font-size: 20px;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.footer-info {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.footer {
+		padding-bottom: 60px;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.menu {
+		flex-direction: column;
+	}
+	.menu__item {
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.offer__title {
+		font-size: 35px;
+	}
+	.true__title {
+   		width: 100%;
+	}
+}

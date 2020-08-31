@@ -1,0 +1,394 @@
+
+                               /*Щрифти*/
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('..//Fonts/MyriadPro-Light.eot'); /* IE9 Compat Modes */
+  src: url('..//Fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('..//Fonts/MyriadPro-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('..//Fonts/MyriadPro-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('..//Fonts/MyriadPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('..//Fonts/MyriadPro-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+                               /*Спецификации*/
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+div, p, form, input, a, span, button{
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+	font-size: 13px;
+	line-height: 1.5em;
+	letter-spacing: 0;
+}
+ul, li{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	line-height: 1.1em;
+	text-transform: uppercase;
+	color:#fff;
+}
+h1{
+	font-size: 45px;
+	font-weight: 700;
+}
+h3{
+	font-size: 36px;
+	font-family: MyriadPro sans-serif;
+
+}
+h5{
+	font-size: 14px;
+	font-weight: 700;
+}
+a, a:hover, a:active{
+	text-decoration: none;
+}
+a, button, input {
+	transition: all 0.5s ease;
+}
+.btn{
+	font-size: 13px;
+	border:0px solid #e84545;
+	width: 200px;
+	padding-top: 13px;
+	height: 46px;
+	background: #e84545;
+	color:#fff;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.btn:active{
+	box-shadow: none;
+}
+.btn:hover{
+	color:#e84545;
+	background: #fff;
+	border:1px solid #e84545;
+}
+.align-items-center{
+	-ms-align-items: center;
+	align-items: center;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:focus{
+	outline: none;
+}
+
+/*-------header-------*/
+.header{
+	background: #30333e url(../Img/main.jpg) no-repeat top center;
+		padding-top: 30px;	
+		color: #fff;
+		padding-bottom: 228px;
+}
+.logo{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.logo span{
+	color: #5a65ca;
+}
+.menu__link{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.menu__link:hover{
+	color: #fff;
+}
+.menu__items{
+	margin-right: 55px;
+	position: relative;
+	
+}
+.menu__item_line:after{
+	content:"";
+	border-bottom: 3px solid rgba(255, 255, 255, 0.47);
+	width: 154px;
+	display: block;
+	position: absolute;
+	bottom: -34px;
+	left: -36px;
+
+}
+.menu{
+	margin-top: 10px;
+}
+.row_1{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+	padding-bottom: 22px;
+}
+                       
+                       /*  OFFER*/
+.offer{
+	padding-top: 188px;
+}
+.offer__title{
+padding-bottom: 40px;
+}
+.offer__text{
+	font-size: 22px;
+}
+.offer__btn{
+	margin-top: 36px;
+}
+
+
+                                   /* Feauture intro*/
+.feauture{
+padding-bottom: 130px;
+}
+.intro{
+	padding: 0 15px;
+padding-top: 115px;
+
+
+}
+.intro__title{
+margin-top: 31px;
+padding-bottom: 25px;
+
+}
+.intro__text{
+color: #6c7279;
+font-size: 14px;
+letter-spacing: 0;
+}
+.foto{
+padding-bottom: 25px;
+}
+.foto_margin{
+	margin-top: 122px;
+}
+
+
+                                 /*PERSONS*/
+
+.persons{
+background: #f1f2fd;
+padding-top:125px;
+padding-bottom: 116px;	
+}
+.person{
+	display: block;
+}
+.person__photo{
+
+}
+.person__title{
+font-size: 22px;	
+color: #2d3033;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 14px;		
+}
+.person__position{
+color: #e84545;
+font-size:13px;
+
+	
+}
+.person__text{
+	margin-top: 27px;
+color: #6c7279;
+font-size: 14px;
+margin-bottom: 51px;
+padding-right: 14px;	
+		
+}
+.person__social{
+margin-left: -5px;
+}
+.person__border_icon{
+display: block;	
+border:1px solid #fff;
+background: #fff;
+margin-left:5px; 
+width: 40px;	
+height: 40px;
+text-align: center;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+}
+.person__icon{
+padding-top: 12px;	 
+}
+
+                                     /*likes*/
+.container__fluid_plain{
+	padding: 0;
+}
+.photo__girl{
+	background: url(../Img/bigfoto.jpg) no-repeat center center;
+height: 500px;
+}
+.true{
+	background: #53354a;
+	padding: 134px 0 121px  80px;
+	width: 100%;
+	
+}
+.true__title{
+	text-transform: none;
+	width: 488px;
+	margin-bottom: 40px;
+	font-size: 36px;
+	line-height: 1.3em;
+}
+.true__text{
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+                          /*READY*/
+.ready{
+padding-top: 96px;
+padding-bottom: 99px;
+}
+.ready__title{
+font-size: 28px;
+font-weight: 700;
+color: #2d3033;
+margin-bottom: 17px;
+text-transform: none;
+}
+.ready__text{
+text-transform: uppercase;
+margin-bottom: 40px;
+color: #2d3033;
+}
+.ready__btn{
+width: 280px;
+padding: 14px 0;
+font-weight: 700;
+}
+
+                                   /*footer*/
+.footer{
+	background: #3a3e64;
+	padding-top: 87px;
+	padding-bottom: 96px;
+	border-bottom: 12px solid #313454;
+}
+.info{
+
+}
+.info__title{
+color:#fff;
+margin-bottom: 25px;
+}
+.info__text{
+font-size: 14px;
+color: #808080;	
+}
+.red{
+	color: #e84545;
+}
+.white{
+	color: #fff;
+}
+.info__pad{
+	padding-left:108px;
+}
+
+ /* Media Queries */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	.menu {
+		margin-left: auto;
+	}
+	.foto_margin{
+		margin-top: 0;
+	}
+	.person{
+		margin-bottom: 40px;
+	}
+	.true{
+		padding-left: 18px;
+	}
+	.intro{
+		margin-bottom: 70px;
+	}
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.menu__items{
+		margin-right: auto;
+	}
+	.logo{
+		margin-left: 265px;
+
+	}
+	.header{
+		padding-bottom: 148px;
+	}
+	.foto{
+		margin-left: 50px;
+	}
+	.true__title{
+		width: 350px;
+		font-size: 30px;
+		padding-bottom: 76px;
+	}
+	.menu__link{
+		margin-right: 65px;
+	}
+	.offer__title{
+		font-size: 38px;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.logo{
+		margin-left: 175px;
+	}
+	.menu__link{
+		margin-right: 48px;
+	}
+	.info__pad{
+		padding-left: 0;
+	}
+
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+.logo{
+	margin: 0;
+}
+.menu__link{
+	margin: 8px;
+}
+.offer__title{
+	font-size: 19px;
+}
+.offer__text{
+	    font-size: 12px;
+}
+.foto{
+	margin-left: 30px;
+}
+}
